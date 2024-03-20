@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-spongeBoyMeBob)"],
+        sans: ["var(--font-comicNeue)"],
       },
       colors: {
-        "off-white": "#FAFAFA",
+        "off-black": "#121212",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
