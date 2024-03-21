@@ -5,7 +5,7 @@ import MainNavigation from "@/components/main-navigations";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Hamfund",
+  title: "HamiFunding",
   description: "Join us in making a real difference, one squeak at a time! 🚀🐹",
 };
 

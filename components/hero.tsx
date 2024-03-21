@@ -33,7 +33,7 @@ const Hero = () => {
     <motion.section className="h-screen flex flex-col relative text-white items-center justify-center">
       <motion.div style={{ y: yHero, opacity: opacityHero }} className="flex flex-col items-center">
         <Image src="/images/hero-ham.png" alt="hamster at the top" width={300} height={300} />
-        <h1 className="text-4xl lg:text-8xl font-bold">HamFunding</h1>
+        <h1 className="text-4xl lg:text-8xl font-bold">HamiFunding</h1>
         <p className="text-2xl text-center max-w-[510px]">A hamsters meme coin that goes beyond entertainment.</p>
       </motion.div>
       <motion.div style={{ opacity: opacityArrow }}>
