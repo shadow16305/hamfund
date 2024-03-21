@@ -21,8 +21,8 @@ const Roadmap = () => {
   });
 
   return (
-    <section className="relative flex flex-col items-center gap-x-12">
-      <h2 className="text-[72px] text-white font-bold sticky top-24">Roadmap</h2>
+    <section className="relative flex flex-col items-center gap-x-12" id="roadmap">
+      <h2 className="text-4xl lg:text-[72px] text-white font-bold sticky top-24">Roadmap</h2>
       <div>
         {roadmapContent.map((item, i) => {
           const targetScale = 1 - (roadmapContent.length - i) * 0.05;

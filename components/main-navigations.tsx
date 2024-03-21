@@ -30,7 +30,7 @@ const MainNavigation = () => {
       )}>
       <div className="flex justify-between mx-auto w-full lg:max-w-[1024px] xl:max-w-[1160px] 2xl:max-w-[1320px]">
         <Link href="/">
-          <Image src="/images/logo.svg" alt="Sponge Fund logo" width={53} height={52} />
+          <Image src="/images/logo.svg" alt="Ham Funding logo" width={54} height={54} />
         </Link>
         <ul className="flex items-center gap-x-7">
           {navLinks.map((link) => (

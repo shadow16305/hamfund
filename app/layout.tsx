@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import MainNavigation from "@/components/main-navigation/main-navigations";
+import MainNavigation from "@/components/main-navigations";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Hamfund",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className={`${comicNeue.variable} bg-off-black font-sans overflow-x-hidden`}>
         <MainNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -7,12 +7,12 @@ export const navLinks = [
   {
     id: "n2",
     name: "About",
-    path: "",
+    path: "#about",
   },
   {
     id: "n3",
-    name: "How to",
-    path: "",
+    name: "Roadmap",
+    path: "#roadmap",
   },
 ];
 
@@ -36,20 +36,17 @@ Join us in making a real difference, one squeak at a time! 🚀🐹`,
 export const roadmapContent = [
   {
     phase: 1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nostrum ipsa illo earum fugiat atque et iure laborum maiores, corrupti deserunt dolores omnis eius expedita asperiores. Assumenda pariatur animi maxime?",
+    description: "Launch token and website.",
     color: "#13FFAA",
   },
   {
     phase: 2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nostrum ipsa illo earum fugiat atque et iure laborum maiores, corrupti deserunt dolores omnis eius expedita asperiores. Assumenda pariatur animi maxime?",
+    description: "Fund the hamsters.",
     color: "#1E67C6",
   },
   {
     phase: 3,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nostrum ipsa illo earum fugiat atque et iure laborum maiores, corrupti deserunt dolores omnis eius expedita asperiores. Assumenda pariatur animi maxime?",
+    description: "Become a hamster memelord.",
     color: "#CE84CF",
   },
 ];
